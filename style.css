@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #660033 0%, #003366 100%);
+}
+
+.Marvel{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 300px;
+    height: 300px;
+    background:black;
+    
+    border-radius: 20%;
+    overflow: hidden;
+    cursor: url(ironman.png), pointer;
+}
+
+.Marvel img{
+    top:  0%;
+    position: relative;
+    transition: .5s;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.Marvel:hover img{
+    transform: scale(1.5);
+    opacity: 100%;
+}
+
+.DC{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 300px;
+    height: 300px;
+    background: black;
+    border-radius: 20%;
+    overflow: hidden;
+
+    cursor: url(batman.png), pointer;
+}
+
+.DC img{
+    top: 0%;
+    position: relative;
+    transition: .5s;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.DC:hover img{
+    transform: scale(1.5);
+    opacity: 100%;
+}
+
+.StarWars{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    width: 300px;
+    height: 300px;
+    background: black;
+    border-radius: 20%;
+    overflow: hidden;
+
+    cursor: url(vader.png), pointer;
+}
+
+.StarWars img{
+    top: 0%;
+    position: relative;
+    transition: .5s;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.StarWars:hover img{
+    transform: scale(1.5);
+    opacity: 100%;
+}
+
+.text{
+    align-content: center;
+    margin-top: 45%;
+    margin-left: 20%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
